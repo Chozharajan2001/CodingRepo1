@@ -1,4 +1,4 @@
-class Solution {
+class RotateArray1 {
     public void rotate(int[] nums, int k) {
         // It is not needed to rotate if you end up at same place.
         // Hence eliminating 360 degree rotating with remainder
