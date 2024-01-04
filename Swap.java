@@ -6,7 +6,10 @@ public class Swap{
     int b=20;
     public static void main(String[] args){
         Swap s = new Swap();
+        System.out.println("Before swap");
+        System.out.println("a is "+s.a+" "+"b is "+s.b);
         swapNumbers(s);
+        System.out.println("After swap");
         System.out.println("a is "+s.a+" "+"b is "+s.b);
     }
     public static void swapNumbers(Swap s){
